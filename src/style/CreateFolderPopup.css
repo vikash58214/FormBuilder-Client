@@ -1,0 +1,48 @@
+.popup-body {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.popup-subBody {
+  width: 22%;
+  border: 1px solid rgb(62, 62, 62);
+  padding: 20px;
+  border-radius: 10px;
+}
+.popup-input {
+  width: 99%;
+  background-color: rgb(47, 47, 47);
+  border: none;
+  height: 40px;
+  font-size: 15px;
+  color: white;
+  border-radius: 8px;
+}
+.popup-done-btn {
+  width: 50%;
+  background: none;
+  color: #1a5fff;
+  height: 35px;
+  font-weight: bold;
+  cursor: pointer;
+  border-right: 2px solid gray;
+  font-size: large;
+  border: none;
+}
+.popup-cancel-btn {
+  width: 50%;
+  background: none;
+  color: #ffffff;
+  height: 35px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: large;
+  border: none;
+  border-left: solid 2px gray;
+}

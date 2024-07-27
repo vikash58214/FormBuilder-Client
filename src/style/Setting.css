@@ -1,0 +1,32 @@
+.setting-body {
+  background-color: #121212;
+  min-height: 100vh;
+}
+.setting-subBody {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.settingForm {
+  width: 25%;
+  height: 400px;
+}
+.setting-input {
+  background: none;
+  height: 40px;
+  margin-bottom: 30px;
+  font-size: large;
+  color: white;
+  padding-left: 5px;
+  border-radius: 10px;
+  border: 1px solid #d0d0d0;
+}
+.setting-button {
+  height: 40px;
+  background-color: #1a5fff;
+  border-radius: 15px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}

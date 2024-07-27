@@ -1,0 +1,50 @@
+.register-form-body {
+  width: 100%;
+  background-color: #121212;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.register-form-subBody {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.input-div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+.input-label {
+  color: white;
+  margin-bottom: 5px;
+  font-size: large;
+}
+.register-input {
+  width: 350px;
+  height: 45px;
+  font-size: large;
+  color: white;
+  border-radius: 10px;
+  background: none;
+  border: 1px gray solid;
+}
+*:focus {
+  outline: none;
+}
+.register-btn {
+  width: 355px;
+  height: 45px;
+  font-size: large;
+  border: none;
+  background-color: #1a5fff;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.error-message {
+  color: red;
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+}

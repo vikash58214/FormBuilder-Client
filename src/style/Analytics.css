@@ -1,0 +1,45 @@
+.analytics-body {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #18181b;
+  min-height: 100vh;
+}
+
+.analytics-subBody {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+}
+.overview-body {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+.overview {
+  width: 200px;
+  height: 100px;
+  background-color: #323232;
+  color: white;
+  border-radius: 10px;
+}
+
+.table-body {
+  width: 100%;
+  margin-top: 100px;
+  overflow: auto;
+  max-height: 400px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  color: white;
+}
+th,
+td {
+  border: 1px solid gray;
+  padding: 10px;
+  min-width: 60px;
+}

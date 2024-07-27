@@ -1,0 +1,22 @@
+.ratingButton {
+  color: white;
+  cursor: pointer;
+  background-color: #1a5fff;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: none;
+}
+.rating {
+  height: 35px;
+  border: none;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  width: 230px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: space-between;
+  padding-left: 8px;
+  padding-right: 8px;
+}

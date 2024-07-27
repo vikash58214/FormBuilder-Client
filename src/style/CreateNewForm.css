@@ -1,0 +1,93 @@
+.newForm-body {
+  background-color: #121212;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.newForm-nav {
+  width: 100%;
+  border-bottom: 1px solid gray;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.newForm-nav-menu {
+  width: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.newForm-subBody {
+  width: 100%;
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+}
+
+.create-folder-btn {
+  width: 120px;
+  cursor: pointer;
+  border: none;
+  height: 35px;
+  background-color: #2c2c31;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  color: white;
+}
+.create-form {
+  width: 150px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 180px;
+  border-radius: 7px;
+  background-color: #1a5fff;
+}
+.newForm-folderDiv {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.newForm-div {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.create-form-inactive {
+  width: 150px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 180px;
+  border-radius: 7px;
+  background-color: gray;
+}
+.newForm {
+  width: 150px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 180px;
+  border-radius: 7px;
+  background-color: gray;
+  position: relative;
+}
+.formDeleteDiv {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 3;
+}

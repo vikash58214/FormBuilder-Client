@@ -1,0 +1,19 @@
+.replyButton-pre {
+  width: 40px;
+  height: 35px;
+  border-radius: 5px;
+  background-color: #777777;
+  color: white;
+  border: none;
+}
+.userValueSubmitted {
+  min-width: 20px;
+  display: flex;
+  padding-left: 10px;
+  padding-right: 10px;
+  align-items: center;
+  border-radius: 8px;
+  height: 35px;
+  background-color: #777777;
+  color: white;
+}
